@@ -1,0 +1,51 @@
+body {
+    background: rgb(18, 24, 58);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-image: url("pics/pictures/spaceman.jpeg");
+  }
+  .swiper-slide:nth-child(2){
+      background-image: url("pics/pictures/hacker.jpeg");
+  }
+  .swiper-slide:nth-child(3){
+    background-image: url("pics/pictures/dream.jpeg");
+}
+.swiper-slide:nth-child(4){
+    background-image: url("pics/pictures/lion.jpeg");
+}
+.swiper-slide:nth-child(5){
+    background-image: url("pics/pictures/spider.jpeg");
+}
+.swiper-slide:nth-child(6){
+    background-image: url("pics/pictures/tiger.jpeg");
+}
+.swiper-slide:nth-child(7){
+    background-image: url("pics/pictures/spiderman.jpeg");
+}
+.swiper-slide:nth-child(8){
+    background-image: url("pics/pictures/car.jpeg");
+}
+.swiper-slide:nth-child(9){
+    background-image: url("pics/art.jpg");
+}
+.swiper-slide:nth-child(10){
+    background-image: url("pics/pictures/hacker.jpeg");
+}

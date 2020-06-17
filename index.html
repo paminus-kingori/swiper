@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="cube.css">
+
+    <title>cube effect</title>
+</head>
+<body>
+    <h2>
+        Swipe the image
+    </h2>
+
+      <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" ></div>
+      <div class="swiper-slide" ></div>
+      <div class="swiper-slide" ></div>
+      <div class="swiper-slide" ></div>
+      <div class="swiper-slide" ></div>
+      <div class="swiper-slide" ></div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+    <script src="swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

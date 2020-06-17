@@ -1,0 +1,52 @@
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: rgb(26, 30, 83);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+      color: rgb(255, 255, 255);
+      position: absolute;
+      top: 10px;
+      font-size: 25px;
+      font-weight: 500;
+  }
+  .swiper-container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+ 
+    background-image: url("pics/pictures/spaceman.jpeg");
+  }
+  .swiper-slide:nth-child(2){
+      background-image: url("pics/pictures/hacker.jpeg");
+  }
+  .swiper-slide:nth-child(3){
+    background-image: url("pics/pictures/dream.jpeg");
+}
+.swiper-slide:nth-child(4){
+    background-image: url("pics/pictures/lion.jpeg");
+}
+.swiper-slide:nth-child(5){
+    background-image: url("pics/pictures/spider.jpeg");
+}
+.swiper-slide:nth-child(6){
+    background-image: url("pics/pictures/tiger.jpeg");
+}
+.swiper-slide:nth-child(7){
+    background-image: url("pics/pictures/spiderman.jpeg");
+}
